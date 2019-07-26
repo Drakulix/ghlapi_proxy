@@ -1,0 +1,11 @@
+[package]
+authors = ["drakulix"]
+edition = "2018"
+name = "ghlapi_proxy"
+version = "0.1.0"
+
+[dependencies]
+tokio = { git = "https://github.com/tokio-rs/tokio", optional = true, default-features = false, features = ["rt-full"] }
+hyper = "0.12.33"
+hyper-tls = "0.3.2"
+native-tls = "0.2"
