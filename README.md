@@ -1,3 +1,7 @@
+**Deprecated** (2019-09-26): Because my personal use-case is focused on home-assistant, which has removed it's google home support, this is now superseeded by a custom_component for home-assistant: https://github.com/Drakulix/googlehome
+
+This code likely remains working for quite some time, but I will not give any support.
+
 # Google Local API Proxy
 
 This small http proxy creates authentication free Google Local API endpoints from newer Local API endpoints
